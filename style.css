@@ -1,53 +1,88 @@
 .Third-box{
-    margin-top: 40px;
     display: flex;
     flex-direction: row;
-    height: 20px;
-    margin-right: 0px;
-    margin-left: 20px;
+     padding-top: 33px;
+     width: auto;
+     height: 65px;
+     vertical-align: baseline;
+     margin-right: 0;
+     margin-top: 0px;
+     padding: 0;
+     border: 0;
+     margin-left: 50px;
+ }
+ select{
+     margin-top: 25px;
+     font-size: 14px;
+     width: 120px;
+     height: 25px;
+ }
+ .option{
+     width: 85px;
+position: absolute;
+top: 30px;
+left: -1px;
+z-index: 4;
+border: 1px solid #bbb;
+vertical-align: baseline;
+margin: 0;
+padding: 0;
+border: 0;
 }
-.search-box{
-    height: 30px;
-}
-option{
-    height: 30px;
-    border-radius: 0%;
-}
-.atag{
-    text-decoration: none;
-    text-align: center;
-}
-.select{
-    height: 30px;
-}
-.button{
-    text-align: center;
-    height: 30px;
-    background-color: transparent;
-    border-color: rgb(221, 200, 200);
-}
-.logo{
-    margin-left: 50px;
-}
-.second{
-    margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 20px;
-    margin-left: 100px;
-    width: 500px;
-}
-.second li{
-    list-style: none;
-    padding: 0 4px;
-}
+ input{
+     height: 25px;
+     line-height: 10px;
+     border: 1px solid #bbb;
+     background: url(http://www.3u.com/img/header_search_icon.png) no-repeat;
+     background-size: 25px;
+     margin: 0 0;
+     padding: 0;
+     border-left: 0;
+     width: 180px;
+ }
+ .Third-box a{
+     width: 10px;
+     height: 18px;
+     border: 1px solid #0b0a0a;
+     font-size: 14px;
+     line-height: 5px;
+     text-align: center;
+     transition: 0.2s;
+     color: #333;
+     text-decoration: none;
+     margin-right: 0;
+     padding: 2px;
+     border: 1px solid;
+ }
+ .Final{
+     padding: 2;
+ }
+ .logo{
+     width: 100px;
+     height: 50px;
+  margin-left: 80px;
+ }
+ .logo img{
+     width: 100px;
+ }
+ .second{
+     margin-top: 25px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-left: 130px;
+     width: 600px;
+     margin-right: 100px;
+ }
+ .second a{
+     font-size: 14px;
+ }
 nav{
     background-color: white;
     width: 100%;
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 60px;
 }
 
 .section-div {
@@ -84,7 +119,7 @@ nav{
     height: 770px;
     background: #4ca2ff url(	http://www.3u.com/img/banner_3ulogo.png?v=001) top center no-repeat;
 }
-span{
+.part span{
     padding: 8px;
 }
 .section-banner p::selection{
@@ -373,37 +408,62 @@ footer{
 
     @media (max-width: 764px){
         .Third-box{
-            display: flex;
-            flex-direction: row;
-            height: 20px;
+           display: flex;
+           flex-direction: row;
+            padding-top: 33px;
+            width: auto;
+            height: 65px;
+            vertical-align: baseline;
             margin-right: 0;
-        }
-        .search-box{
-            height: 30px;
-        }
-        option{
-            height: 30px;
-            border-radius: 0%;
-        }
-        .atag{
-            text-decoration: none;
-            text-align: center;
-        }
-        .select{
-            display: none;
-        }
-        .button{
-            display: none;
-            text-align: center;
-            height: 30px;
-            width: 70px;
-            background-color: transparent;
-            border-color: rgb(221, 200, 200);
-        }
-        .form-outline{
             margin-top: 0px;
+            padding: 0;
+            border: 0;
+            margin-left: 10px;
+        }
+        select{
+            margin-top: 5px;
+            font-size: 5px;
+            width: 38px;
+        }
+        .option{
+            width: 85px;
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    z-index: 4;
+    border: 1px solid #bbb;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+        input{
+            height: 10px;
+            line-height: 10px;
+            border: 1px solid #bbb;
+            background: url(http://www.3u.com/img/header_search_icon.png) no-repeat;
+            background-size: 10px;
+            margin: 0 0;
+            padding-bottom: 10px;
+            border-left: 0;
+            width: 40px;
+        }
+        .Third-box a{
+            width: 10px;
             height: 20px;
-            width: 100px;
+            border: 1px solid #0b0a0a;
+            font-size: 7px;
+            line-height: 5px;
+            text-align: center;
+            transition: 0.2s;
+            color: #333;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        .Final{
+            padding: 2;
         }
         .logo{
             width: 10px;
@@ -417,18 +477,18 @@ footer{
             margin-top: 10px;
             display: flex;
             flex-direction: row;
-            /* justify-content: space-between; */
+            justify-content: space-between;
             margin-left: 60px;
             width: 200px;
             margin-right: 3px;
         }
-        .second li{
+        .second a{
             font-size: 7px;
         }
         nav{
             display: flex;
             flex-direction: row;
-            height: 7.2%;
+            height: 40px;
         }
         
         .section-div {
@@ -466,7 +526,7 @@ footer{
             height: auto;
             background: #4ca2ff url(http://www.3u.com/img/banner_3ulogo.png?v=001) top center no-repeat;
         }
-        span{
+        .part span{
             padding: 8px;
         }
         .section-banner p::selection{
@@ -641,7 +701,7 @@ footer{
             margin-left: 0;
             margin-right: 0;
             width: 100%;
-            margin-top: 190px;
+            margin-top: 220px;
             height: auto;
             background: url(http://www.3u.com/img/home_tools_bg.png);
             position: relative;
@@ -786,55 +846,88 @@ footer{
 
     @media (765px <= width <= 1029px){
         .Third-box{
-            margin-top: 30px;
             display: flex;
             flex-direction: row;
-            height: 20px;
-            margin-right: 0px;
-        }
-        .search-box{
-            height: 30px;
-        }
-        option{
-            height: 30px;
-            border-radius: 0%;
-        }
-        .atag{
-            text-decoration: none;
-            text-align: center;
-        }
-        .select{
-            height: 30px;
-        }
-        .button{
-            text-align: center;
-            height: 30px;
-            background-color: transparent;
-            border-color: rgb(221, 200, 200);
-        }
-        .logo{
-            margin-top: 0px;
-            margin-left: 30px;
-        }
-        .second{
-            margin-top: 40px;
-            text-align: center;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-left: 20px;
-            width: 300px;
-            margin-right: 10px;
-        }
-        .second li{
-            padding: 0 4px;
-            list-style: none;
-            font-size: 10px;
-        }
+             padding-top: 33px;
+             width: auto;
+             height: 65px;
+             vertical-align: baseline;
+             margin-right: 0;
+             margin-top: 0px;
+             padding: 0;
+             border: 0;
+             margin-left: 30px;
+         }
+         select{
+             margin-top: 25px;
+             font-size: 14px;
+             width: 80px;
+         }
+         .option{
+             width: 85px;
+     position: absolute;
+     top: 30px;
+     left: -1px;
+     z-index: 4;
+     border: 1px solid #bbb;
+     vertical-align: baseline;
+     margin: 0;
+     padding: 0;
+     border: 0;
+ }
+         input{
+             height: 23px;
+             line-height: 10px;
+             border: 1px solid #bbb;
+             background: url(http://www.3u.com/img/header_search_icon.png) no-repeat;
+             background-size: 23px;
+             margin: 0 0;
+             padding: 0;
+             border-left: 0;
+             width: 120px;
+         }
+         .Third-box a{
+             width: 10px;
+             height: 20px;
+             border: 1px solid #0b0a0a;
+             font-size: 14px;
+             line-height: 5px;
+             text-align: center;
+             transition: 0.2s;
+             color: #333;
+             text-decoration: none;
+             margin-left: 10px;
+             margin-right: 0;
+             padding: 0;
+             border: 1px solid;
+         }
+         .Final{
+             padding: 8;
+         }
+         .logo{
+             width: 100px;
+             height: 50px;
+          margin-left: 10px;
+         }
+         .logo img{
+             width: 100px;
+         }
+         .second{
+             margin-top: 25px;
+             display: flex;
+             flex-direction: row;
+             justify-content: space-between;
+             margin-left: 40px;
+             width: 350px;
+             margin-right: 3px;
+         }
+         .second a{
+             font-size: 14px;
+         }
         nav{
             display: flex;
             flex-direction: row;
-            height: 80px;
+            height: 60px;
         }
         
         .section-div {
@@ -1048,7 +1141,7 @@ footer{
             margin-left: 0;
             margin-right: 0;
             width: 100%;
-            margin-top: 190px;
+            margin-top: 220px;
             height: auto;
             background: url(http://www.3u.com/img/home_tools_bg.png);
             position: relative;
